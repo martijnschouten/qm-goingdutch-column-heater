@@ -1,0 +1,95 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\mschouten\OneDrive - Sensirion\Documents\GitHub\qm-goingdutch-column-heater\Heater PCB Column Coil.PcbDoc
+Date     : 16/03/2026
+Time     : 15:45:23
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
+   Violation between Clearance Constraint: (Collision < 0.127mm) Between Arc (2.594mm,9.994mm) on Bottom Layer And Pad M2-1(-30mm,0mm) on Multi-Layer 
+   Violation between Clearance Constraint: (Collision < 0.127mm) Between Arc (2.594mm,9.994mm) on Top Layer And Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer 
+   Violation between Clearance Constraint: (Collision < 0.127mm) Between Arc (2.594mm,9.994mm) on Top Layer And Pad M2-1(-30mm,0mm) on Multi-Layer 
+   Violation between Clearance Constraint: (Collision < 0.127mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Track (-33.405mm,9.994mm)(-33.405mm,10.308mm) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 0.127mm) Between Track (-33.405mm,9.994mm)(-32.246mm,9.994mm) on Top Layer And Track (-33.405mm,9.994mm)(-33.405mm,10.308mm) on Top Layer 
+Rule Violations :5
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Short-Circuit Constraint: Between Arc (2.594mm,9.994mm) on Bottom Layer And Pad M2-1(-30mm,0mm) on Multi-Layer Location : [X = 19.132mm][Y = 50.547mm]
+   Violation between Short-Circuit Constraint: Between Arc (2.594mm,9.994mm) on Top Layer And Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer Location : [X = 17.615mm][Y = 61.481mm]
+   Violation between Short-Circuit Constraint: Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Track (-33.405mm,9.994mm)(-33.405mm,10.308mm) on Top Layer Location : [X = 17.601mm][Y = 61.157mm]
+   Violation between Short-Circuit Constraint: Between Track (-33.405mm,9.994mm)(-32.246mm,9.994mm) on Top Layer And Track (-33.405mm,9.994mm)(-33.405mm,10.308mm) on Top Layer Location : [X = 17.601mm][Y = 61mm]
+Rule Violations :4
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Arc (2.594mm,9.994mm) on Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Net Heater Between Pad M2-1(-30mm,0mm) on Multi-Layer And Pad M1-1(30mm,0mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net Heater Between Track (-33.405mm,9.994mm)(-33.405mm,10.308mm) on Top Layer And Pad M2-1(-30mm,0mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Track (-33.405mm,9.994mm)(-32.246mm,9.994mm) on Top Layer Dead Copper - Net Not Assigned.
+Rule Violations :4
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.127mm) (Max=25.4mm) (Preferred=0.127mm) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.305mm) (Max=25.4mm) (Preferred=0.305mm) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.152mm) (Max=25.4mm) (Preferred=0.152mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=25.4mm) (Preferred=0.254mm) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.508mm) (Max=25.4mm) (Preferred=0.508mm) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InPadClass('PowerPads'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.3mm) (Conductor Width=0.127mm) (Air Gap=0.127mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.152mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.3mm) (Max=6.3mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.152mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.127mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.127mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+   Violation between Net Antennae: Arc (2.594mm,9.994mm) on Top Layer 
+   Violation between Net Antennae: Track (-33.405mm,9.994mm)(-33.405mm,10.308mm) on Top Layer 
+Rule Violations :2
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Arc (2.594mm,9.994mm) on Bottom Layer And Board Edge 
+   Violation between Board Outline Clearance(Cutout Edge): (Collision < 0.2mm) Between Arc (2.594mm,9.994mm) on Bottom Layer And Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer 
+   Violation between Board Outline Clearance(Cutout Edge): (0.183mm < 0.2mm) Between Arc (2.594mm,9.994mm) on Top Layer And Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer 
+   Violation between Board Outline Clearance(Cutout Edge): (Collision < 0.2mm) Between Arc (2.594mm,9.994mm) on Top Layer And Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer 
+   Violation between Board Outline Clearance(Cutout Edge): (0.066mm < 0.2mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Text "M1" (32.407mm,14.246mm) on Top Overlay 
+   Violation between Board Outline Clearance(Cutout Edge): (Collision < 0.2mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Text "M2" (-33.963mm,13.814mm) on Top Overlay 
+   Violation between Board Outline Clearance(Cutout Edge): (Collision < 0.2mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Track (-33.405mm,9.994mm)(-32.246mm,9.994mm) on Top Layer 
+   Violation between Board Outline Clearance(Cutout Edge): (Collision < 0.2mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Track (-33.405mm,9.994mm)(-33.405mm,10.308mm) on Top Layer 
+   Violation between Board Outline Clearance(Cutout Edge): (0.182mm < 0.2mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Track (-33.725mm,10.311mm)(-33.725mm,10.313mm) on Top Layer 
+   Violation between Board Outline Clearance(Cutout Edge): (0.183mm < 0.2mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Track (-33.725mm,10.313mm)(-33.725mm,10.313mm) on Top Layer 
+   Violation between Board Outline Clearance(Cutout Edge): (0.183mm < 0.2mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Track (-34.045mm,10.313mm)(-33.725mm,10.313mm) on Top Layer 
+Rule Violations :11
+
+Processing Rule : Height Constraint (Min=0mm) (Max=1816.048mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 26
+Waived Violations : 0
+Time Elapsed        : 00:00:01

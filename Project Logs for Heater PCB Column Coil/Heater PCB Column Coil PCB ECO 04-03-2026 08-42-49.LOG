@@ -1,0 +1,18 @@
+Added Component: Designator=M1(PTH-M3.4-D6.0)
+Add component (AddParameter): Name = "Component Type"; Value = "Mechanical, Board Item"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "id"; Value = "45001811"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "mechanical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "mechanical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Preferred"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=M2(PTH-M3.4-D6.0)
+Add component (AddParameter): Name = "Component Type"; Value = "Mechanical, Board Item"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "id"; Value = "45001811"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "mechanical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "mechanical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Preferred"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Heater Pin=M1-1
+Added Pin To Net: NetName=Heater Pin=M2-1
+Added Member To Class: ClassName=Heater PCB Column Coil Member=Component M1 PTH
+Added Member To Class: ClassName=Heater PCB Column Coil Member=Component M2 PTH
