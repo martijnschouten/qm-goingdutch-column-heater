@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: Heater PCB Column Coil.GBR   4/9/2024  12:10:54 PM
+Gerber File Extension Report For: Heater PCB Column Coil.GBR   17/03/2026  15:14:13
 ------------------------------------------------------------------------------------------
 
 
@@ -10,6 +10,11 @@ Layer Extension     Layer Description
 .GTP                Top Paste                               
 .GTS                Top Solder                              
 .GTL                Top Layer                               
+.GBL                Bottom Layer                            
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
 .GM1                Mechanical 1                            
+.GM4                0.4mm deep depth controlled slot        
 .GM                 Profile                                 
 ------------------------------------------------------------------------------------------

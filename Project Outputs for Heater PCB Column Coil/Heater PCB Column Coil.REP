@@ -2,27 +2,28 @@
 FileName = Heater PCB Column Coil.GBR
 AutoAperture = True
 *************************************************************
-Generating : Top Overlay
-      File : Heater PCB Column Coil.GTO
+Generating : Bottom Layer
+      File : Heater PCB Column Coil.GBL
 
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : Heater PCB Column Coil.GTP
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
+    Adding Layer      : Bottom Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
+    D13
+*************************************************************
+
+*************************************************************
+Generating : 0.4mm deep depth controlled slot
+      File : Heater PCB Column Coil.GM4
+
+    Adding Layer      : 0.4mm deep depth controlled slot
+
+
+Used DCodes :
+    D15
+    D16
 *************************************************************
 
 *************************************************************
@@ -41,6 +42,71 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
+Generating : Mechanical 1
+      File : Heater PCB Column Coil.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D14
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : Heater PCB Column Coil.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : Heater PCB Column Coil.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : Heater PCB Column Coil.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : Heater PCB Column Coil.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
 Generating : Top Layer
       File : Heater PCB Column Coil.GTL
 
@@ -52,17 +118,17 @@ Generating : Top Layer
 Used DCodes :
     D11
     D12
+    D13
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 1
-      File : Heater PCB Column Coil.GM1
+Generating : Bottom Overlay
+      File : Heater PCB Column Coil.GBO
 
-    Adding Layer      : Mechanical 1
+    Adding Layer      : Bottom Overlay
 
 
 Used DCodes :
-    D13
 *************************************************************
 
 *************************************************************
@@ -71,6 +137,6 @@ Generating : Profile
 
 
 Used DCodes :
-    D14
+    D17
 *************************************************************
 

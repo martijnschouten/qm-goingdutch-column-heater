@@ -1,11 +1,22 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : Project [Heater PCB Column Coil.PrjPcb]
-   Generated File[Heater PCB Column Coil.LDP]
-   Generated File[Heater PCB Column Coil.DRR]
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [Heater PCB Column Coil.PrjPcb]
+   Generated File[Heater PCB Column Coil.GTO]
+   Generated File[Heater PCB Column Coil.GTP]
+   Generated File[Heater PCB Column Coil.GTS]
+   Generated File[Heater PCB Column Coil.GTL]
+   Generated File[Heater PCB Column Coil.GBL]
+   Generated File[Heater PCB Column Coil.GBS]
+   Generated File[Heater PCB Column Coil.GBP]
+   Generated File[Heater PCB Column Coil.GBO]
+   Generated File[Heater PCB Column Coil.GM1]
+   Generated File[Heater PCB Column Coil.GM4]
+   Generated File[Heater PCB Column Coil.GM]
+   Generated File[Heater PCB Column Coil.EXTREP]
+   Generated File[Heater PCB Column Coil.REP]
 
 
-Files Generated   : 2
+Files Generated   : 13
 Documents Printed : 0
 
-Finished Output Generation At 12:11:22 PM On 4/9/2024
+Finished Output Generation At 15:14:14 On 17/03/2026

@@ -1,4 +1,14 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: Heater PCB Column Coil.PcbDoc   4/9/2024  12:11:22 PM
+NCDrill File Report For: Heater PCB Column Coil.PcbDoc   17/03/2026  14:50:04
 ----------------------------------------------------------------------------------------------------------------------------------
 
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Heater PCB Column Coil.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      134mil (3.4mm)                                            Round             2         PTH        2.36inch (60.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              2
+
+Total Processing Time (hh:mm:ss) : 00:00:00
